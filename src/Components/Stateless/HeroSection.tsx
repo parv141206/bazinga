@@ -1,17 +1,17 @@
 import Image from 'next/image';
 import React from 'react';
-import {motion} from "framer-motion"
+import { motion } from "framer-motion"
 import Button from '../Statefull/Button';
 export default function HeroSection() {
     return (
         <div className="bg-main">
 
             <div className=' h-screen  flex p-10 container mx-auto'>
-                <motion.div initial={{ opacity: 0 }} animate={{ opacity: 1 }}  className="items-center w-full flex justify-end flex-col gap-3">
+                <motion.div initial={{ opacity: 0 }} animate={{ opacity: 1 }} className="items-center w-full flex justify-end flex-col gap-3">
                     <div className="text-7xl font-bold text-white">AgroExpert</div>
                     <div className="text-3xl text-white">Cultivating Success, <br /> One Seed at a Time!</div>
-                    <Button title="Get Started" onClick={() => {console.log("clicked")}} />
-                    </motion.div>
+                    <Button title="Get Started" onClick={() => { console.log("clicked") }} />
+                </motion.div>
 
             </div>
         </div>

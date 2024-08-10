@@ -1,3 +1,5 @@
+# Written by devansh...
+# (tested in venv)
 from flask import Flask, jsonify, request
 import openmeteo_requests
 import requests_cache
